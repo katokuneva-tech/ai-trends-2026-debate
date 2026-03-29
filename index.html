@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Trends 2026 — Debate Analysis</title>
+<title>AI-тренды 2026 — Диалектический анализ</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -77,28 +77,6 @@ body {
 }
 .nav-links a:hover { background: rgba(156,102,68,0.1); color: var(--accent); }
 
-.lang-toggle {
-  display: inline-flex;
-  border: 1px solid var(--border);
-  border-radius: 20px;
-  overflow: hidden;
-  margin-left: 12px;
-}
-.lang-btn {
-  background: none;
-  border: none;
-  padding: 5px 14px;
-  font-size: 13px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  cursor: pointer;
-  color: var(--text-muted);
-  transition: all 0.2s;
-}
-.lang-btn.active {
-  background: var(--accent);
-  color: #fff;
-}
 
 /* ---- LAYOUT ---- */
 .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
@@ -458,8 +436,6 @@ section { padding: 80px 0; }
   transform: translateY(0);
 }
 
-/* ---- LANG ---- */
-[data-lang="en"] { display: none; }
 
 /* ---- RESPONSIVE ---- */
 @media (max-width: 768px) {
@@ -487,19 +463,15 @@ section { padding: 80px 0; }
   <div class="nav-inner">
     <div class="nav-brand">AI Trends 2026</div>
     <div class="nav-links">
-      <a href="#exec"><span data-lang="ru">Выводы</span><span data-lang="en">Summary</span></a>
-      <a href="#verdicts"><span data-lang="ru">Вердикты</span><span data-lang="en">Verdicts</span></a>
-      <a href="#seg1"><span data-lang="ru">Агенты</span><span data-lang="en">Agents</span></a>
-      <a href="#seg2"><span data-lang="ru">Данные</span><span data-lang="en">Data</span></a>
-      <a href="#seg3"><span data-lang="ru">Продуктивность</span><span data-lang="en">Productivity</span></a>
-      <a href="#seg4"><span data-lang="ru">Пузырь</span><span data-lang="en">Bubble</span></a>
-      <a href="#seg5"><span data-lang="ru">Governance</span><span data-lang="en">Governance</span></a>
-      <a href="#recs"><span data-lang="ru">Рекомендации</span><span data-lang="en">Recs</span></a>
-      <div class="lang-toggle">
-        <button class="lang-btn active" id="btnRu" onclick="setLang('ru')">RU</button>
-        <button class="lang-btn" id="btnEn" onclick="setLang('en')">EN</button>
-      </div>
-    </div>
+      <a href="#exec">Выводы</a>
+      <a href="#verdicts">Вердикты</a>
+      <a href="#seg1">Агенты</a>
+      <a href="#seg2">Данные</a>
+      <a href="#seg3">Продуктивность</a>
+      <a href="#seg4">Пузырь</a>
+      <a href="#seg5">Governance</a>
+      <a href="#recs">Рекомендации</a>
+</div>
   </div>
 </nav>
 
@@ -507,17 +479,17 @@ section { padding: 80px 0; }
 <header class="hero" id="hero">
   <div class="hero-inner fade-in">
     <h1>
-      <span data-lang="ru">AI-тренды 2026: что выдерживает проверку?</span>
-      <span data-lang="en">AI Trends 2026: What Survives Scrutiny?</span>
+      AI-тренды 2026: что выдерживает проверку?
+      
     </h1>
     <p class="subtitle">
-      <span data-lang="ru">Пять ведущих отчётов об ИИ, пропущенные через мульти-агентные дебаты с независимой верификацией</span>
-      <span data-lang="en">Five major AI reports subjected to multi-agent adversarial debate with independent verification</span>
+      Пять ведущих отчётов об ИИ, пропущенные через мульти-агентные дебаты с независимой верификацией
+      
     </p>
     <div class="hero-meta">
-      <span class="meta-pill"><span data-lang="ru">5 источников</span><span data-lang="en">5 sources</span></span>
-      <span class="meta-pill"><span data-lang="ru">5 сегментов</span><span data-lang="en">5 segments</span></span>
-      <span class="meta-pill"><span data-lang="ru">10 раундов</span><span data-lang="en">10 rounds</span></span>
+      <span class="meta-pill">5 источников</span>
+      <span class="meta-pill">5 сегментов</span>
+      <span class="meta-pill">10 раундов</span>
       <span class="meta-pill">29.03.2026</span>
     </div>
     <div class="source-list">
@@ -540,20 +512,14 @@ section { padding: 80px 0; }
 <section id="exec">
   <div class="container">
     <div class="section-title fade-in">
-      <h2><span data-lang="ru">Ключевые выводы</span><span data-lang="en">Executive Summary</span></h2>
+      <h2>Ключевые выводы</h2>
     </div>
     <div class="card exec-card fade-in">
-      <div data-lang="ru">
-        <p>Пять отчётов о трендах ИИ рисуют 2026-й как переломный год — но расходятся в том, как именно выглядит этот перелом. После прохождения через состязательные дебаты, независимую верификацию и перекрёстный синтез, главный вывод — не о какой-то конкретной технологии, а о растущем разрыве готовности. Небольшая группа хорошо подготовленных организаций — TELUS, JPMorgan, Intuit, Danfoss — извлекает реальную измеримую ценность из ИИ. Большинство же застряло в том, что DataArt называет «экспериментальной эйфорией»: анонсируя ИИ-инициативы в пресс-релизах, пока финансовые отделы вручную копируют данные между системами из 1990-х.</p>
+              <p>Пять отчётов о трендах ИИ рисуют 2026-й как переломный год — но расходятся в том, как именно выглядит этот перелом. После прохождения через состязательные дебаты, независимую верификацию и перекрёстный синтез, главный вывод — не о какой-то конкретной технологии, а о растущем разрыве готовности. Небольшая группа хорошо подготовленных организаций — TELUS, JPMorgan, Intuit, Danfoss — извлекает реальную измеримую ценность из ИИ. Большинство же застряло в том, что DataArt называет «экспериментальной эйфорией»: анонсируя ИИ-инициативы в пресс-релизах, пока финансовые отделы вручную копируют данные между системами из 1990-х.</p>
         <p>Второй ключевой вывод касается самой доказательной базы. Наиболее цитируемые статистики — «52% уже используют агентов в продакшене», «88% видят положительный ROI» — получены из вендорских опросов с предварительно отфильтрованными выборками. Четыре из пяти источников в этом анализе финансово заинтересованы в оптимизме вокруг ИИ. MIT Sloan, единственный академический источник, даёт самую сдержанную оценку.</p>
         <p>ИИ — не революция, которую обещают его промоутеры, и не пузырь, о котором предупреждают критики. Это мощная технология на ранней стадии неравномерного внедрения — где победителей от проигравших отделяет не выбор модели, а наличие организационного фундамента.</p>
-        <div class="key-finding">Главный вывод: разрыв готовности — не технология — определяет 2026 год</div>
+        <div class="key-finding">Главный вывод: разрыв готовности — не технология — определяет 2026 год
       </div>
-      <div data-lang="en">
-        <p>Five AI trend reports paint 2026 as a pivotal year — but they disagree sharply on what that pivot looks like. After adversarial debate, independent verification, and cross-segment synthesis, the most reliable finding is not about any single technology but about a widening readiness chasm. A small cohort of well-resourced organizations — TELUS, JPMorgan, Intuit, Danfoss — is extracting real, measurable value from AI. The majority remains stuck in what DataArt calls "experimental euphoria": announcing AI initiatives in press releases while finance teams manually copy data between systems built in the 1990s.</p>
-        <p>The second major finding concerns the evidence itself. The most frequently cited statistics — "52% have agents in production," "88% see positive ROI" — come from vendor-commissioned surveys with pre-filtered samples. Four of five sources in this analysis are financially invested in AI optimism. MIT Sloan, the only academic source, provides the most measured assessment.</p>
-        <p>AI is neither the revolution its boosters promise nor the bubble its critics warn about. It is a powerful technology in the early stages of an uneven adoption curve — where winners are separated from losers not by which model they use, but by whether they built the organizational foundations to use any model well.</p>
-        <div class="key-finding">Key finding: the readiness chasm — not technology — defines 2026</div>
       </div>
     </div>
   </div>
@@ -563,63 +529,63 @@ section { padding: 80px 0; }
 <section id="verdicts" style="padding-top:0;">
   <div class="container">
     <div class="section-title fade-in">
-      <h2><span data-lang="ru">Вердикты по сегментам</span><span data-lang="en">Segment Verdicts</span></h2>
-      <p><span data-lang="ru">Нажмите на карточку для перехода к полному анализу</span><span data-lang="en">Click a card to jump to the full analysis</span></p>
+      <h2>Вердикты по сегментам</h2>
+      <p>Нажмите на карточку для перехода к полному анализу</p>
     </div>
     <div class="verdicts-grid">
 
       <a href="#seg1" class="verdict-card fade-in">
-        <div class="seg-num"><span data-lang="ru">Сегмент 1</span><span data-lang="en">Segment 1</span></div>
-        <h3><span data-lang="ru">ИИ-агенты</span><span data-lang="en">AI Agents</span></h3>
+        <div class="seg-num">Сегмент 1</div>
+        <h3>ИИ-агенты</h3>
         <div class="verdict-tag moderate">MODERATE</div>
         <div class="score">6/10</div>
         <div class="desc">
-          <span data-lang="ru">Реальная ценность в отдельных внедрениях; «масштаб» преувеличен</span>
-          <span data-lang="en">Real value in specific deployments; 'at scale' is overstated</span>
+          Реальная ценность в отдельных внедрениях; «масштаб» преувеличен
+          
         </div>
       </a>
 
       <a href="#seg2" class="verdict-card fade-in">
-        <div class="seg-num"><span data-lang="ru">Сегмент 2</span><span data-lang="en">Segment 2</span></div>
-        <h3><span data-lang="ru">Данные vs. Модели</span><span data-lang="en">Data vs. Models</span></h3>
+        <div class="seg-num">Сегмент 2</div>
+        <h3>Данные vs. Модели</h3>
         <div class="verdict-tag contested">CONTESTED</div>
         <div class="score">5/10</div>
         <div class="desc">
-          <span data-lang="ru">Взаимозависимы, а не иерархичны — оба несущие</span>
-          <span data-lang="en">Co-dependent, not hierarchical — both are load-bearing</span>
+          Взаимозависимы, а не иерархичны — оба несущие
+          
         </div>
       </a>
 
       <a href="#seg3" class="verdict-card fade-in">
-        <div class="seg-num"><span data-lang="ru">Сегмент 3</span><span data-lang="en">Segment 3</span></div>
-        <h3><span data-lang="ru">Парадокс продуктивности</span><span data-lang="en">Productivity Paradox</span></h3>
+        <div class="seg-num">Сегмент 3</div>
+        <h3>Парадокс продуктивности</h3>
         <div class="verdict-tag moderate">MODERATE</div>
         <div class="score">6/10</div>
         <div class="desc">
-          <span data-lang="ru">Индивидуальный +30-40% подтверждён; макро-ускорение отсутствует</span>
-          <span data-lang="en">Individual +30-40% replicated; macro acceleration absent</span>
+          Индивидуальный +30-40% подтверждён; макро-ускорение отсутствует
+          
         </div>
       </a>
 
       <a href="#seg4" class="verdict-card fade-in">
-        <div class="seg-num"><span data-lang="ru">Сегмент 4</span><span data-lang="en">Segment 4</span></div>
-        <h3><span data-lang="ru">Пузырь ИИ</span><span data-lang="en">AI Bubble</span></h3>
+        <div class="seg-num">Сегмент 4</div>
+        <h3>Пузырь ИИ</h3>
         <div class="verdict-tag contested">CONTESTED</div>
         <div class="score">5/10</div>
         <div class="desc">
-          <span data-lang="ru">Коррекция вероятна; масштаб неясен; ценность сконцентрируется</span>
-          <span data-lang="en">Correction likely; severity uncertain; value will concentrate</span>
+          Коррекция вероятна; масштаб неясен; ценность сконцентрируется
+          
         </div>
       </a>
 
       <a href="#seg5" class="verdict-card fade-in">
-        <div class="seg-num"><span data-lang="ru">Сегмент 5</span><span data-lang="en">Segment 5</span></div>
-        <h3><span data-lang="ru">Governance</span><span data-lang="en">Governance</span></h3>
+        <div class="seg-num">Сегмент 5</div>
+        <h3>Governance</h3>
         <div class="verdict-tag moderate">MODERATE</div>
         <div class="score">7/10</div>
         <div class="desc">
-          <span data-lang="ru">Не барьер, а мультипликатор качества; долг растёт без него</span>
-          <span data-lang="en">Not a gate but a quality multiplier; debt compounds without it</span>
+          Не барьер, а мультипликатор качества; долг растёт без него
+          
         </div>
       </a>
 
@@ -631,34 +597,26 @@ section { padding: 80px 0; }
 <section class="segment" id="seg1">
   <div class="container">
     <div class="segment-header fade-in">
-      <div class="seg-label"><span data-lang="ru">Сегмент 1</span><span data-lang="en">Segment 1</span></div>
+      <div class="seg-label">Сегмент 1</div>
       <h2>
-        <span data-lang="ru">ИИ-агенты: готовы к продакшену или всё ещё экспериментальны?</span>
-        <span data-lang="en">AI Agents: Ready for Production or Still Mostly Experimental?</span>
+        ИИ-агенты: готовы к продакшену или всё ещё экспериментальны?
+        
       </h2>
       <div class="verdict-tag moderate">MODERATE 6/10</div>
     </div>
 
     <div class="segment-content fade-in">
-      <div data-lang="ru">
-        <p>Утверждение, что ИИ-агенты перешли от пилотов к масштабному продакшену — одно из самых спорных в литературе 2026 года. Заглавная цифра Google Cloud — 52% руководителей сообщают об агентах в продакшене — звучит как точка невозврата. Но методологическая сноска решает всё: эти 52% получены из опроса организаций, уже использующих генеративный ИИ. Сопутствующая статистика — 88% ранних последователей видят положительный ROI — сужается ещё сильнее: всего 460 респондентов из 3 466, то есть 13% выборки.</p>
+              <p>Утверждение, что ИИ-агенты перешли от пилотов к масштабному продакшену — одно из самых спорных в литературе 2026 года. Заглавная цифра Google Cloud — 52% руководителей сообщают об агентах в продакшене — звучит как точка невозврата. Но методологическая сноска решает всё: эти 52% получены из опроса организаций, уже использующих генеративный ИИ. Сопутствующая статистика — 88% ранних последователей видят положительный ROI — сужается ещё сильнее: всего 460 респондентов из 3 466, то есть 13% выборки.</p>
         <p>При этом кейсы конкретны и подкреплены цифрами: TELUS экономит 40 минут на взаимодействие на 57 000 сотрудников; Danfoss автоматизировала 80% транзакционных решений, сократив время отклика с 42 часов до реального времени. Даже Скептик за два раунда не смог их полностью дискредитировать.</p>
         <p>Ключевое противоречие — во времени. MIT Sloan прогнозирует, что агенты будут обрабатывать большинство бизнес-транзакций «в течение пяти лет». Одновременно Anthropic и CMU установили, что агенты «делают слишком много ошибок для процессов, связанных с большими деньгами». Gartner помещает GenAI в «долину разочарования», одновременно прогнозируя встраивание агентов в ~40% приложений.</p>
         <p>Итог: агенты приносят реальную пользу в конкретных, хорошо обеспеченных внедрениях. Заявление о «массовой готовности» экономики в целом преждевременно.</p>
-      </div>
-      <div data-lang="en">
-        <p>The claim that AI agents have crossed from pilot to production at scale is one of the most contested assertions in the 2026 trend literature. Google Cloud's headline figure — 52% of executives report agents in production — sounds like a tipping point. But the methodological fine print matters: that 52% comes from a survey scoped exclusively to organizations already using generative AI. The companion statistic — 88% of early adopters seeing positive ROI — narrows to just 460 respondents out of 3,466, a mere 13% of the total sample.</p>
-        <p>That said, the case studies are specific and quantified: TELUS saves 40 minutes per interaction across 57,000 employees; Danfoss automated 80% of transactional decisions, compressing response time from 42 hours to near real-time. Even the Skeptic across two rounds couldn't fully dismiss them.</p>
-        <p>The deeper tension lies in timeline. MIT Sloan projects agents will handle most transactions "within five years." Meanwhile, Anthropic and Carnegie Mellon found agents "make too many mistakes for processes involving big money." Gartner places GenAI in the "trough of disillusionment" while projecting ~40% of apps with embedded agents.</p>
-        <p>Bottom line: agents deliver real value in specific, well-resourced deployments. The claim of production readiness "at scale" across the economy is premature.</p>
-      </div>
     </div>
 
     <!-- Score Card -->
     <div class="score-card fade-in">
-      <h4><span data-lang="ru">Динамика дебатов</span><span data-lang="en">Debate Dynamics</span></h4>
+      <h4>Динамика дебатов</h4>
       <p style="font-size:13px;color:var(--text-muted);margin-bottom:16px;">
-        <span data-lang="ru">Раунд 1</span><span data-lang="en">Round 1</span>
+        Раунд 1
       </p>
       <div class="score-row">
         <span class="score-label" style="color:var(--adv-green);">Advocate</span>
@@ -671,7 +629,7 @@ section { padding: 80px 0; }
         <span class="score-val">22/30</span>
       </div>
       <p style="font-size:13px;color:var(--text-muted);margin:16px 0;">
-        <span data-lang="ru">Раунд 2</span><span data-lang="en">Round 2</span>
+        Раунд 2
       </p>
       <div class="score-row">
         <span class="score-label" style="color:var(--adv-green);">Advocate</span>
@@ -688,23 +646,15 @@ section { padding: 80px 0; }
     <!-- Transcript -->
     <div class="segment-content" style="margin-top:0;">
       <button class="transcript-toggle fade-in" onclick="toggleTranscript(this)">
-        <span data-lang="ru">Показать транскрипт дебатов</span><span data-lang="en">Show Debate Transcript</span>
+        Показать транскрипт дебатов
         <span class="arrow">&#9660;</span>
       </button>
       <div class="transcript-body">
         <div class="transcript-inner">
-          <div data-lang="ru">
-            <p><strong>Раунд 1 — Адвокат:</strong> Построил 5 тезисов вокруг 52% агентов в продакшене, количественных кейсов (TELUS, Danfoss), рыночной траектории, одобрения FDA, горизонта MIT Sloan в 5 лет.</p>
+                      <p><strong>Раунд 1 — Адвокат:</strong> Построил 5 тезисов вокруг 52% агентов в продакшене, количественных кейсов (TELUS, Danfoss), рыночной траектории, одобрения FDA, горизонта MIT Sloan в 5 лет.</p>
             <p><strong>Раунд 1 — Скептик:</strong> Разоблачил предварительно отфильтрованную выборку, предвзятость ранних последователей (n=460/3 466), вендорские метрики без аудита, противоречие Gartner, +45% отладки.</p>
             <p><strong>Раунд 2 — Адвокат:</strong> Уточнил различие между «долиной разочарования» Gartner и объёмом развёртывания (sentiment ≠ volume), регулируемые секторы как сигнал надёжности.</p>
             <p><strong>Раунд 2 — Скептик:</strong> Разобрал FDA 510(k) (разрешение ≠ эффективность), оспорил неаудированные вендорские метрики, привёл данные GitClear о росте code churn на +39%.</p>
-          </div>
-          <div data-lang="en">
-            <p><strong>Round 1 — Advocate:</strong> Built 5 theses around 52% in production, quantified case studies (TELUS, Danfoss), market trajectory, FDA approval, MIT Sloan 5-year horizon.</p>
-            <p><strong>Round 1 — Skeptic:</strong> Exposed pre-filtered sample, early adopter bias (n=460/3,466), vendor-reported metrics, Gartner contradiction, 45% more debugging.</p>
-            <p><strong>Round 2 — Advocate:</strong> Clarified Gartner trough vs deployment (sentiment ≠ volume), regulated sectors as credibility signal.</p>
-            <p><strong>Round 2 — Skeptic:</strong> Dismantled FDA 510(k) (clearance ≠ efficacy), challenged unaudited vendor metrics, cited GitClear code churn +39%.</p>
-          </div>
         </div>
       </div>
     </div>
@@ -715,31 +665,24 @@ section { padding: 80px 0; }
 <section class="segment" id="seg2">
   <div class="container">
     <div class="segment-header fade-in">
-      <div class="seg-label"><span data-lang="ru">Сегмент 2</span><span data-lang="en">Segment 2</span></div>
+      <div class="seg-label">Сегмент 2</div>
       <h2>
-        <span data-lang="ru">Инфраструктура данных vs. инновации моделей</span>
-        <span data-lang="en">Data Infrastructure vs. Model Innovation</span>
+        Инфраструктура данных vs. инновации моделей
+        
       </h2>
       <div class="verdict-tag contested">CONTESTED 5/10</div>
     </div>
 
     <div class="segment-content fade-in">
-      <div data-lang="ru">
-        <p>Тезис DataArt — «самая высокая отдача сейчас — от инфраструктуры данных, а не от новых моделей» — стал одним из самых острых дебатов. Адвокат построил убедительный кейс: 75% провалов ИИ-проектов — нетехнические, ~90% корпоративных данных остаются неструктурированными. BBVA (2019), JPMorgan OmniAI (2020), Intuit GenOS — ранние инвесторы в инфраструктуру лидируют.</p>
+              <p>Тезис DataArt — «самая высокая отдача сейчас — от инфраструктуры данных, а не от новых моделей» — стал одним из самых острых дебатов. Адвокат построил убедительный кейс: 75% провалов ИИ-проектов — нетехнические, ~90% корпоративных данных остаются неструктурированными. BBVA (2019), JPMorgan OmniAI (2020), Intuit GenOS — ранние инвесторы в инфраструктуру лидируют.</p>
         <p>Скептик, однако, нанёс решающие удары. Неструктурированные данные — это именно та область, где возможности моделей критичны: инфраструктура может хранить документы и изображения, но извлечение смысла — задача моделей. MAI-DxO с точностью 85.5% против 20% у врачей — это прорыв модели, а не пайплайна. Протоколы MCP и A2A — это не замена моделей, а усилители их возможностей.</p>
         <p>Верный фрейминг: инфраструктура данных — более пренебрегаемая инвестиция, а не более важная. Оба слоя несущие.</p>
-      </div>
-      <div data-lang="en">
-        <p>DataArt's assertion that "the highest-ROI investment right now is data infrastructure, not the latest AI model" became one of the fiercest debates. The Advocate built a compelling case: 75% of AI project failures are non-technical, ~90% of corporate data remains unstructured. BBVA (2019), JPMorgan OmniAI (2020), Intuit GenOS — early infra investors lead.</p>
-        <p>The Skeptic, however, landed decisive blows. Unstructured data is precisely where model capability matters most — infrastructure stores documents and images, but extracting meaning is fundamentally a model-layer problem. MAI-DxO at 85.5% accuracy versus 20% for physicians is a model capability breakthrough, not a pipeline win. MCP and A2A protocols amplify model capability, they don't replace it.</p>
-        <p>The correct framing: data infrastructure is the more neglected investment, not the more important one. Both layers are load-bearing.</p>
-      </div>
     </div>
 
     <div class="score-card fade-in">
-      <h4><span data-lang="ru">Динамика дебатов</span><span data-lang="en">Debate Dynamics</span></h4>
+      <h4>Динамика дебатов</h4>
       <p style="font-size:13px;color:var(--text-muted);margin-bottom:16px;">
-        <span data-lang="ru">Раунд 1</span><span data-lang="en">Round 1</span>
+        Раунд 1
       </p>
       <div class="score-row">
         <span class="score-label" style="color:var(--adv-green);">Advocate</span>
@@ -752,7 +695,7 @@ section { padding: 80px 0; }
         <span class="score-val">24/30</span>
       </div>
       <p style="font-size:13px;color:var(--text-muted);margin:16px 0;">
-        <span data-lang="ru">Раунд 2</span><span data-lang="en">Round 2</span>
+        Раунд 2
       </p>
       <div class="score-row">
         <span class="score-label" style="color:var(--adv-green);">Advocate</span>
@@ -768,23 +711,15 @@ section { padding: 80px 0; }
 
     <div class="segment-content" style="margin-top:0;">
       <button class="transcript-toggle fade-in" onclick="toggleTranscript(this)">
-        <span data-lang="ru">Показать транскрипт дебатов</span><span data-lang="en">Show Debate Transcript</span>
+        Показать транскрипт дебатов
         <span class="arrow">&#9660;</span>
       </button>
       <div class="transcript-body">
         <div class="transcript-inner">
-          <div data-lang="ru">
-            <p><strong>Раунд 1 — Адвокат:</strong> 75% провалов нетехнические, ~90% данных неструктурированы, лидеры (BBVA, JPMorgan, Intuit) инвестировали в инфраструктуру за годы до хайпа. DataArt: «самая высокая отдача — от инфраструктуры».</p>
+                      <p><strong>Раунд 1 — Адвокат:</strong> 75% провалов нетехнические, ~90% данных неструктурированы, лидеры (BBVA, JPMorgan, Intuit) инвестировали в инфраструктуру за годы до хайпа. DataArt: «самая высокая отдача — от инфраструктуры».</p>
             <p><strong>Раунд 1 — Скептик:</strong> Неструктурированные данные — именно область, где нужны модели. MAI-DxO 85.5% vs 20% у врачей — прорыв модели. MCP/A2A усиливают модели, не заменяют их. Инфраструктура — необходимое, но не достаточное условие.</p>
             <p><strong>Раунд 2 — Адвокат:</strong> Рефреймировал: инфраструктура — более пренебрегаемая инвестиция, не более важная. Организации инвестируют в модели 10:1 по сравнению с данными.</p>
             <p><strong>Раунд 2 — Скептик:</strong> Согласился с рефреймингом, но подчеркнул: оба слоя несущие. Без модельного прорыва инфраструктура — просто дорогое хранилище.</p>
-          </div>
-          <div data-lang="en">
-            <p><strong>Round 1 — Advocate:</strong> 75% of failures non-technical, ~90% data unstructured, leaders (BBVA, JPMorgan, Intuit) invested in infra years before the hype. DataArt: "highest ROI is in infrastructure."</p>
-            <p><strong>Round 1 — Skeptic:</strong> Unstructured data is exactly where models matter. MAI-DxO 85.5% vs 20% for physicians — a model breakthrough. MCP/A2A amplify models, don't replace them. Infrastructure is necessary but not sufficient.</p>
-            <p><strong>Round 2 — Advocate:</strong> Reframed: infrastructure is the more neglected investment, not the more important one. Organizations invest in models 10:1 vs data.</p>
-            <p><strong>Round 2 — Skeptic:</strong> Agreed with reframe, but stressed: both layers load-bearing. Without model breakthroughs, infrastructure is just expensive storage.</p>
-          </div>
         </div>
       </div>
     </div>
@@ -795,31 +730,24 @@ section { padding: 80px 0; }
 <section class="segment" id="seg3">
   <div class="container">
     <div class="segment-header fade-in">
-      <div class="seg-label"><span data-lang="ru">Сегмент 3</span><span data-lang="en">Segment 3</span></div>
+      <div class="seg-label">Сегмент 3</div>
       <h2>
-        <span data-lang="ru">Парадокс продуктивности: складываются ли индивидуальные выигрыши?</span>
-        <span data-lang="en">The AI Productivity Paradox</span>
+        Парадокс продуктивности: складываются ли индивидуальные выигрыши?
+        
       </h2>
       <div class="verdict-tag moderate">MODERATE 6/10</div>
     </div>
 
     <div class="segment-content fade-in">
-      <div data-lang="ru">
-        <p>Индивидуальные выигрыши 30-40% — одни из самых надёжных результатов этого анализа. MIT: +40% скорости письма, +18% качества. NBER: +35% для менее квалифицированных. TELUS: 40 минут на взаимодействие &times; 57 000 сотрудников. GitHub: 43M PR/мес (+23%).</p>
+              <p>Индивидуальные выигрыши 30-40% — одни из самых надёжных результатов этого анализа. MIT: +40% скорости письма, +18% качества. NBER: +35% для менее квалифицированных. TELUS: 40 минут на взаимодействие &times; 57 000 сотрудников. GitHub: 43M PR/мес (+23%).</p>
         <p>Парадокс: MIT Sloan называет организационную отдачу «инкрементальной и практически неизмеримой». Statworx: индивидуальные +33%, организационные стагнируют. «Никто не знает», чем сотрудники занимаются со сэкономленным временем.</p>
         <p>Скептик нанёс сильный удар: one-person unicorns (Midjourney $200M, &lt;100 сотрудников; Base44 $80M, один основатель) напрямую опровергают тезис, что организации не могут конвертировать индивидуальные выигрыши. Адвокат уточнил: парадокс не в том, что ИИ бесполезен — а в том, что микровыигрыши не производят макроускорения. Рост производительности труда в США оставался в историческом коридоре. Это аналог парадокса Солоу — который разрешился за 5-10 лет.</p>
-      </div>
-      <div data-lang="en">
-        <p>Individual productivity gains of 30-40% are among the most robust findings. MIT study: +40% writing speed, +18% quality. NBER: +35% for lower-skilled workers. TELUS: 40 min/interaction &times; 57K employees. GitHub: 43M PRs/month (+23%).</p>
-        <p>The paradox: MIT Sloan calls organizational returns "incremental and mostly unmeasurable." Statworx: individual +33%, organizational stagnate. "Nobody knows" what employees do with saved time.</p>
-        <p>The Skeptic's strongest blow: one-person unicorns (Midjourney $200M, &lt;100 employees; Base44 $80M by a single founder) directly contradict "organizations can't capture individual gains." The Advocate refined: the paradox isn't that AI is useless — it's that micro gains haven't produced macro acceleration. US productivity growth stayed within the pre-AI historical range. This mirrors the original Solow Paradox, which resolved over 5-10 years.</p>
-      </div>
     </div>
 
     <div class="score-card fade-in">
-      <h4><span data-lang="ru">Динамика дебатов</span><span data-lang="en">Debate Dynamics</span></h4>
+      <h4>Динамика дебатов</h4>
       <p style="font-size:13px;color:var(--text-muted);margin-bottom:16px;">
-        <span data-lang="ru">Раунд 1</span><span data-lang="en">Round 1</span>
+        Раунд 1
       </p>
       <div class="score-row">
         <span class="score-label" style="color:var(--adv-green);">Advocate</span>
@@ -832,7 +760,7 @@ section { padding: 80px 0; }
         <span class="score-val">24/30</span>
       </div>
       <p style="font-size:13px;color:var(--text-muted);margin:16px 0;">
-        <span data-lang="ru">Раунд 2</span><span data-lang="en">Round 2</span>
+        Раунд 2
       </p>
       <div class="score-row">
         <span class="score-label" style="color:var(--adv-green);">Advocate</span>
@@ -848,23 +776,15 @@ section { padding: 80px 0; }
 
     <div class="segment-content" style="margin-top:0;">
       <button class="transcript-toggle fade-in" onclick="toggleTranscript(this)">
-        <span data-lang="ru">Показать транскрипт дебатов</span><span data-lang="en">Show Debate Transcript</span>
+        Показать транскрипт дебатов
         <span class="arrow">&#9660;</span>
       </button>
       <div class="transcript-body">
         <div class="transcript-inner">
-          <div data-lang="ru">
-            <p><strong>Раунд 1 — Адвокат:</strong> Индивидуальные выигрыши реплицированы: MIT +40%, NBER +35%, TELUS 40 мин, GitHub +23%. Парадокс реален — микро не переходит в макро.</p>
+                      <p><strong>Раунд 1 — Адвокат:</strong> Индивидуальные выигрыши реплицированы: MIT +40%, NBER +35%, TELUS 40 мин, GitHub +23%. Парадокс реален — микро не переходит в макро.</p>
             <p><strong>Раунд 1 — Скептик:</strong> One-person unicorns (Midjourney, Base44) опровергают тезис о невозможности конвертации. Парадокс — артефакт измерения, а не реальный барьер.</p>
             <p><strong>Раунд 2 — Адвокат:</strong> Уточнил: стартапы — не контрпример, а особый случай (нет legacy, нет организационного трения). Производительность труда в США в историческом коридоре. Аналогия с парадоксом Солоу — разрешение через 5-10 лет.</p>
             <p><strong>Раунд 2 — Скептик:</strong> Принял аналогию с Солоу, но указал на фундаментальное отличие: ИИ ускоряет не один процесс, а все одновременно. Измерение GDP может не улавливать качественные сдвиги.</p>
-          </div>
-          <div data-lang="en">
-            <p><strong>Round 1 — Advocate:</strong> Individual gains replicated: MIT +40%, NBER +35%, TELUS 40 min, GitHub +23%. The paradox is real — micro doesn't translate to macro.</p>
-            <p><strong>Round 1 — Skeptic:</strong> One-person unicorns (Midjourney, Base44) contradict the thesis. The paradox is a measurement artifact, not a real barrier.</p>
-            <p><strong>Round 2 — Advocate:</strong> Refined: startups are a special case (no legacy, no org friction). US productivity growth within historical range. Solow Paradox analogy — resolution in 5-10 years.</p>
-            <p><strong>Round 2 — Skeptic:</strong> Accepted the Solow analogy but noted a key difference: AI accelerates not one process but all simultaneously. GDP measurement may not capture qualitative shifts.</p>
-          </div>
         </div>
       </div>
     </div>
@@ -875,33 +795,25 @@ section { padding: 80px 0; }
 <section class="segment" id="seg4">
   <div class="container">
     <div class="segment-header fade-in">
-      <div class="seg-label"><span data-lang="ru">Сегмент 4</span><span data-lang="en">Segment 4</span></div>
+      <div class="seg-label">Сегмент 4</div>
       <h2>
-        <span data-lang="ru">Пузырь ИИ: сдувание, коррекция или консолидация?</span>
-        <span data-lang="en">The AI Bubble — Deflation, Correction, or Consolidation?</span>
+        Пузырь ИИ: сдувание, коррекция или консолидация?
+        
       </h2>
       <div class="verdict-tag contested">CONTESTED 5/10</div>
     </div>
 
     <div class="segment-content fade-in">
-      <div data-lang="ru">
-        <p>MIT Sloan проводит параллель напрямую: «Мы помним сдувание пузыря доткомов. Трудно не видеть сходство». DataArt: «Невозможно, чтобы один сектор вечно обгонял остальную экономику».</p>
+              <p>MIT Sloan проводит параллель напрямую: «Мы помним сдувание пузыря доткомов. Трудно не видеть сходство». DataArt: «Невозможно, чтобы один сектор вечно обгонял остальную экономику».</p>
         <p>Адвокат коррекции построил кейс на трёх столпах: ROI недоказан в масштабе (лишь 13% организаций демонстрируют отдачу); энергопотребление дата-центров удвоится до &gt;1000 ТВтч к 2026 (больше всей Японии); Gartner помещает GenAI в «долину разочарования».</p>
         <p>Скептик парировал мощно: аналогия с доткомами разваливается на фундаментале. Nvidia торгуется при ~30x forward earnings с ростом выручки 142%. Но Адвокат ответил не менее точно: «У Amazon была реальная выручка в 1999. Обе компании потеряли 80%+ капитализации. Вопрос не "зарабатывает ли ИИ?", а "зарабатывает ли достаточно для текущих оценок?"»</p>
         <p>Верификатор пометил этот сегмент как единственный с неопределённым статусом. Какая-то форма коррекции вероятна, но её масштаб — от плавного сдувания до консолидации — остаётся открытым вопросом.</p>
-      </div>
-      <div data-lang="en">
-        <p>MIT Sloan draws the parallel explicitly: "We remember the dot-com bubble deflation. It's hard not to see the similarities." DataArt: "Not sustainable that one sector outgrows the rest forever."</p>
-        <p>The Advocate built a case on three pillars: ROI unproven at scale (only 13% demonstrate returns); energy demands doubling to &gt;1,000 TWh by 2026 (exceeding Japan); Gartner places GenAI in "valley of disappointment."</p>
-        <p>The Skeptic countered powerfully: the dot-com analogy collapses on fundamentals. Nvidia trades at ~30x forward earnings with 142% revenue growth. But the Advocate reframed: "Amazon had real revenue in 1999. Both lost 80%+ of stock value. The question isn't 'does AI make money?' but 'does it make enough to justify current capital deployment?'"</p>
-        <p>The Verifier flagged this as the only segment with uncertain status. Some form of correction is likely, but whether it's a sharp deflation or a gradual consolidation where value concentrates — that remains genuinely uncertain.</p>
-      </div>
     </div>
 
     <div class="score-card fade-in">
-      <h4><span data-lang="ru">Динамика дебатов</span><span data-lang="en">Debate Dynamics</span></h4>
+      <h4>Динамика дебатов</h4>
       <p style="font-size:13px;color:var(--text-muted);margin-bottom:16px;">
-        <span data-lang="ru">Раунд 1</span><span data-lang="en">Round 1</span>
+        Раунд 1
       </p>
       <div class="score-row">
         <span class="score-label" style="color:var(--adv-green);">Advocate</span>
@@ -914,7 +826,7 @@ section { padding: 80px 0; }
         <span class="score-val">21/30</span>
       </div>
       <p style="font-size:13px;color:var(--text-muted);margin:16px 0;">
-        <span data-lang="ru">Раунд 2</span><span data-lang="en">Round 2</span>
+        Раунд 2
       </p>
       <div class="score-row">
         <span class="score-label" style="color:var(--adv-green);">Advocate</span>
@@ -930,23 +842,15 @@ section { padding: 80px 0; }
 
     <div class="segment-content" style="margin-top:0;">
       <button class="transcript-toggle fade-in" onclick="toggleTranscript(this)">
-        <span data-lang="ru">Показать транскрипт дебатов</span><span data-lang="en">Show Debate Transcript</span>
+        Показать транскрипт дебатов
         <span class="arrow">&#9660;</span>
       </button>
       <div class="transcript-body">
         <div class="transcript-inner">
-          <div data-lang="ru">
-            <p><strong>Раунд 1 — Адвокат:</strong> Три столпа коррекции: ROI недоказан (13%), энергопотребление &gt;1000 ТВтч, Gartner «долина разочарования». MIT Sloan: «сходство с доткомами трудно не видеть».</p>
+                      <p><strong>Раунд 1 — Адвокат:</strong> Три столпа коррекции: ROI недоказан (13%), энергопотребление &gt;1000 ТВтч, Gartner «долина разочарования». MIT Sloan: «сходство с доткомами трудно не видеть».</p>
             <p><strong>Раунд 1 — Скептик:</strong> Аналогия с доткомами ошибочна: Nvidia 30x P/E с ростом 142%. Доткомы торговались на надежде, ИИ — на реальной выручке. Энергия — решаемая проблема (атом, эффективность).</p>
             <p><strong>Раунд 2 — Адвокат:</strong> «Amazon тоже имела выручку в 1999 и потеряла 80%. Вопрос не "зарабатывает ли?", а "достаточно ли для текущих оценок?"» Инфраструктурные расходы $100B+ при неясном ROI.</p>
             <p><strong>Раунд 2 — Скептик:</strong> Коррекция ≠ пузырь. Консолидация вероятнее краха. Ценность сконцентрируется у лидеров (3-5 компаний), остальные проиграют. Это нормальная динамика технологических циклов.</p>
-          </div>
-          <div data-lang="en">
-            <p><strong>Round 1 — Advocate:</strong> Three pillars: ROI unproven (13%), energy &gt;1,000 TWh, Gartner "valley of disappointment." MIT Sloan: "hard not to see the dot-com similarities."</p>
-            <p><strong>Round 1 — Skeptic:</strong> Dot-com analogy fails: Nvidia 30x P/E with 142% growth. Dot-coms traded on hope; AI trades on real revenue. Energy is solvable (nuclear, efficiency).</p>
-            <p><strong>Round 2 — Advocate:</strong> "Amazon had revenue in 1999 and lost 80%. The question isn't 'does it earn?' but 'enough for current valuations?'" Infra spend $100B+ with unclear ROI.</p>
-            <p><strong>Round 2 — Skeptic:</strong> Correction ≠ bubble. Consolidation more likely than crash. Value concentrates among leaders (3-5 companies), others lose. Normal technology cycle dynamics.</p>
-          </div>
         </div>
       </div>
     </div>
@@ -957,31 +861,24 @@ section { padding: 80px 0; }
 <section class="segment" id="seg5">
   <div class="container">
     <div class="segment-header fade-in">
-      <div class="seg-label"><span data-lang="ru">Сегмент 5</span><span data-lang="en">Segment 5</span></div>
+      <div class="seg-label">Сегмент 5</div>
       <h2>
-        <span data-lang="ru">Governance и организационная готовность — настоящее узкое место?</span>
-        <span data-lang="en">Governance and Organizational Readiness — The Real Bottleneck?</span>
+        Governance и организационная готовность — настоящее узкое место?
+        
       </h2>
       <div class="verdict-tag moderate">MODERATE 7/10</div>
     </div>
 
     <div class="segment-content fade-in">
-      <div data-lang="ru">
-        <p>75% провалов ИИ-проектов — нетехнические: 30% — отсутствие бизнес-кейса, 25% — качество данных, 20% — governance. Лишь 39% компаний имеют CAIO, а подчинённость распределена четырьмя путями. 70% сотрудников не прошли никакого обучения ИИ. 84% хотят больше ИИ, но только 29% видят поддержку руководства.</p>
+              <p>75% провалов ИИ-проектов — нетехнические: 30% — отсутствие бизнес-кейса, 25% — качество данных, 20% — governance. Лишь 39% компаний имеют CAIO, а подчинённость распределена четырьмя путями. 70% сотрудников не прошли никакого обучения ИИ. 84% хотят больше ИИ, но только 29% видят поддержку руководства.</p>
         <p>Скептик убедительно показал, что внедрение растёт вопреки пробелам: 52% уже деплоят агентов, GitHub Copilot &gt;1.8M подписок, ChatGPT 800M пользователей. Адвокат ответил точно: «Субстандартные ипотеки тоже масштабировались. Скорость без контроля — не успех, а отложенная катастрофа.» Утечка данных Samsung через ChatGPT, ответственность Air Canada за выдумки чатбота — предсказуемые последствия деплоя без governance.</p>
         <p>Синтез: governance — не барьер, блокирующий внедрение, а мультипликатор качества, без которого накапливается технический, юридический и репутационный долг.</p>
-      </div>
-      <div data-lang="en">
-        <p>75% of AI project failures are non-technical: 30% poor business case, 25% data quality, 20% governance. Only 39% have a CAIO, reporting splits four ways. 70% received zero AI training. 84% want more AI but only 29% see leadership advocacy.</p>
-        <p>The Skeptic showed adoption surges despite gaps: 52% deploying agents, Copilot &gt;1.8M subscriptions, ChatGPT 800M users. The Advocate responded: "Subprime mortgages scaled too. Velocity without controls isn't success — it's deferred catastrophe." Samsung's data leak through ChatGPT, Air Canada's chatbot liability — predictable outputs of ungoverned deployment.</p>
-        <p>Synthesis: governance is not a gate blocking deployment but a quality multiplier whose absence accumulates technical, legal, and reputational debt.</p>
-      </div>
     </div>
 
     <div class="score-card fade-in">
-      <h4><span data-lang="ru">Динамика дебатов</span><span data-lang="en">Debate Dynamics</span></h4>
+      <h4>Динамика дебатов</h4>
       <p style="font-size:13px;color:var(--text-muted);margin-bottom:16px;">
-        <span data-lang="ru">Раунд 1</span><span data-lang="en">Round 1</span>
+        Раунд 1
       </p>
       <div class="score-row">
         <span class="score-label" style="color:var(--adv-green);">Advocate</span>
@@ -994,7 +891,7 @@ section { padding: 80px 0; }
         <span class="score-val">21/30</span>
       </div>
       <p style="font-size:13px;color:var(--text-muted);margin:16px 0;">
-        <span data-lang="ru">Раунд 2</span><span data-lang="en">Round 2</span>
+        Раунд 2
       </p>
       <div class="score-row">
         <span class="score-label" style="color:var(--adv-green);">Advocate</span>
@@ -1010,23 +907,15 @@ section { padding: 80px 0; }
 
     <div class="segment-content" style="margin-top:0;">
       <button class="transcript-toggle fade-in" onclick="toggleTranscript(this)">
-        <span data-lang="ru">Показать транскрипт дебатов</span><span data-lang="en">Show Debate Transcript</span>
+        Показать транскрипт дебатов
         <span class="arrow">&#9660;</span>
       </button>
       <div class="transcript-body">
         <div class="transcript-inner">
-          <div data-lang="ru">
-            <p><strong>Раунд 1 — Адвокат:</strong> 75% провалов нетехнические. Только 39% имеют CAIO. 70% без обучения ИИ. Samsung, Air Canada — предсказуемые последствия. Governance — мультипликатор качества.</p>
+                      <p><strong>Раунд 1 — Адвокат:</strong> 75% провалов нетехнические. Только 39% имеют CAIO. 70% без обучения ИИ. Samsung, Air Canada — предсказуемые последствия. Governance — мультипликатор качества.</p>
             <p><strong>Раунд 1 — Скептик:</strong> Внедрение растёт вопреки пробелам: 52% деплоят агентов, Copilot 1.8M, ChatGPT 800M. Рынок не ждёт идеального governance. Компании учатся на ходу.</p>
             <p><strong>Раунд 2 — Адвокат:</strong> «Субстандартные ипотеки тоже масштабировались. Скорость без контроля — отложенная катастрофа.» Долг накапливается: юридический, технический, репутационный. EU AI Act сделает governance обязательным.</p>
             <p><strong>Раунд 2 — Скептик:</strong> EU AI Act ещё не применяется на практике. Большинство организаций выберут минимальное compliance, а не глубокое governance. Но согласился: без базового контроля риски растут нелинейно.</p>
-          </div>
-          <div data-lang="en">
-            <p><strong>Round 1 — Advocate:</strong> 75% of failures non-technical. Only 39% have CAIO. 70% without AI training. Samsung, Air Canada — predictable consequences. Governance is a quality multiplier.</p>
-            <p><strong>Round 1 — Skeptic:</strong> Adoption grows despite gaps: 52% deploying agents, Copilot 1.8M, ChatGPT 800M. The market doesn't wait for perfect governance. Companies learn by doing.</p>
-            <p><strong>Round 2 — Advocate:</strong> "Subprime mortgages scaled too. Velocity without controls is deferred catastrophe." Debt accumulates: legal, technical, reputational. EU AI Act will make governance mandatory.</p>
-            <p><strong>Round 2 — Skeptic:</strong> EU AI Act not yet enforced in practice. Most organizations will choose minimal compliance over deep governance. But agreed: without basic controls, risks grow nonlinearly.</p>
-          </div>
         </div>
       </div>
     </div>
@@ -1037,37 +926,22 @@ section { padding: 80px 0; }
 <section id="cross" style="border-top: 1px solid var(--border);">
   <div class="container">
     <div class="section-title fade-in">
-      <h2><span data-lang="ru">Перекрёстный анализ</span><span data-lang="en">Cross-Segment Analysis</span></h2>
+      <h2>Перекрёстный анализ</h2>
     </div>
 
     <div class="card cross-card fade-in">
-      <h3><span data-lang="ru">1. Разрыв готовности</span><span data-lang="en">1. The Readiness Chasm</span></h3>
-      <div data-lang="ru">
-        <p>Небольшая когорта подготовленных организаций извлекает реальную ценность, большинство — нет. DataArt описывает три пути: «фундамент-вперёд» (TELUS, JPMorgan, Intuit — те, кто инвестировал в инфраструктуру за годы до хайпа), «коррекция и перезапуск» (организации, которые начали с моделей и вынуждены возвращаться к основам), и «стратегическая стагнация» (те, кто объявил ИИ-стратегию, но не изменил ни процессов, ни бюджетов).</p>
-      </div>
-      <div data-lang="en">
-        <p>A small cohort extracts real value; the majority does not. DataArt's "three paths": foundation-first success (TELUS, JPMorgan, Intuit — those who invested in infrastructure years before the hype), correction and reset (organizations that started with models and must return to basics), and strategic stagnation (those who announced AI strategies without changing processes or budgets).</p>
-      </div>
+      <h3>1. Разрыв готовности</h3>
+              <p>Небольшая когорта подготовленных организаций извлекает реальную ценность, большинство — нет. DataArt описывает три пути: «фундамент-вперёд» (TELUS, JPMorgan, Intuit — те, кто инвестировал в инфраструктуру за годы до хайпа), «коррекция и перезапуск» (организации, которые начали с моделей и вынуждены возвращаться к основам), и «стратегическая стагнация» (те, кто объявил ИИ-стратегию, но не изменил ни процессов, ни бюджетов).</p>
     </div>
 
     <div class="card cross-card fade-in">
-      <h3><span data-lang="ru">2. Дефицит качества доказательств</span><span data-lang="en">2. Evidence Quality Deficit</span></h3>
-      <div data-lang="ru">
-        <p>Наиболее цитируемые статистики не выдерживают базовой методологической проверки. «52% в продакшене» — из предварительно отфильтрованной выборки. «88% видят ROI» — 13% от общей выборки. Индустрия не имеет независимой инфраструктуры для измерения ROI от ИИ. Большинство метрик — самооценка, вендорские опросы или маркетинговые кейсы без аудита.</p>
-      </div>
-      <div data-lang="en">
-        <p>The most-cited statistics don't survive basic methodological scrutiny. "52% in production" comes from a pre-filtered sample. "88% see ROI" represents 13% of the total sample. The industry lacks independent ROI measurement infrastructure. Most metrics are self-reported, vendor surveys, or marketing case studies without audit.</p>
-      </div>
+      <h3>2. Дефицит качества доказательств</h3>
+              <p>Наиболее цитируемые статистики не выдерживают базовой методологической проверки. «52% в продакшене» — из предварительно отфильтрованной выборки. «88% видят ROI» — 13% от общей выборки. Индустрия не имеет независимой инфраструктуры для измерения ROI от ИИ. Большинство метрик — самооценка, вендорские опросы или маркетинговые кейсы без аудита.</p>
     </div>
 
     <div class="card cross-card fade-in">
-      <h3><span data-lang="ru">3. Вендорский bias как системное слепое пятно</span><span data-lang="en">3. Vendor Bias as Systemic Blind Spot</span></h3>
-      <div data-lang="ru">
-        <p>4 из 5 источников финансово заинтересованы в оптимизме вокруг ИИ. Google Cloud продаёт ИИ-инфраструктуру. Microsoft интегрирует Copilot в каждый продукт. Statworx — ИИ-консалтинг. DataArt — технологический аутсорсинг с ИИ-практикой. MIT Sloan, единственный академический голос, последовательно даёт самую сдержанную оценку по каждому сегменту.</p>
-      </div>
-      <div data-lang="en">
-        <p>4 of 5 sources are financially invested in AI optimism. Google Cloud sells AI infrastructure. Microsoft integrates Copilot into every product. Statworx is an AI consultancy. DataArt is a tech outsourcer with AI practice. MIT Sloan, the only academic voice, consistently gives the most measured assessment across every segment.</p>
-      </div>
+      <h3>3. Вендорский bias как системное слепое пятно</h3>
+              <p>4 из 5 источников финансово заинтересованы в оптимизме вокруг ИИ. Google Cloud продаёт ИИ-инфраструктуру. Microsoft интегрирует Copilot в каждый продукт. Statworx — ИИ-консалтинг. DataArt — технологический аутсорсинг с ИИ-практикой. MIT Sloan, единственный академический голос, последовательно даёт самую сдержанную оценку по каждому сегменту.</p>
     </div>
   </div>
 </section>
@@ -1076,40 +950,25 @@ section { padding: 80px 0; }
 <section id="recs" style="border-top: 1px solid var(--border);">
   <div class="container">
     <div class="section-title fade-in">
-      <h2><span data-lang="ru">Рекомендации</span><span data-lang="en">Recommendations</span></h2>
+      <h2>Рекомендации</h2>
     </div>
 
     <div class="card rec-card strong-rec fade-in">
-      <div class="rec-label strong-l"><span data-lang="ru">Действуйте уверенно</span><span data-lang="en">Act with confidence</span> — STRONG</div>
-      <h3><span data-lang="ru">Инвестируйте в фундамент</span><span data-lang="en">Invest in foundations</span></h3>
-      <div data-lang="ru">
-        <p>Инвестируйте в инфраструктуру данных и организационную готовность прежде, чем гнаться за frontier-моделями. Это самый широко подтверждённый вывод: 75% провалов нетехнические, 90% данных неструктурированы, лидеры строили фундамент за годы до текущего хайпа.</p>
-      </div>
-      <div data-lang="en">
-        <p>Invest in data infrastructure and organizational readiness before chasing frontier models. The most broadly supported finding: 75% of failures are non-technical, 90% of data unstructured, winners built foundations years before the hype.</p>
-      </div>
+      <div class="rec-label strong-l">Действуйте уверенно — STRONG</div>
+      <h3>Инвестируйте в фундамент</h3>
+              <p>Инвестируйте в инфраструктуру данных и организационную готовность прежде, чем гнаться за frontier-моделями. Это самый широко подтверждённый вывод: 75% провалов нетехнические, 90% данных неструктурированы, лидеры строили фундамент за годы до текущего хайпа.</p>
     </div>
 
     <div class="card rec-card moderate-rec fade-in">
-      <div class="rec-label moderate-l"><span data-lang="ru">Исследуйте дальше</span><span data-lang="en">Investigate further</span> — MODERATE</div>
-      <h3><span data-lang="ru">Точечное внедрение агентов</span><span data-lang="en">Targeted agent deployment</span></h3>
-      <div data-lang="ru">
-        <p>Внедряйте агентов в конкретных, высокоценных, ограниченных сценариях — не как общую трансформацию. Следуйте модели «ползти-идти-бежать»: начните с автоматизации документов или продуктивности разработчиков.</p>
-      </div>
-      <div data-lang="en">
-        <p>Deploy AI agents in specific, high-value, well-bounded use cases — not as general transformation. Follow "crawl-walk-run": start with document automation or developer productivity.</p>
-      </div>
+      <div class="rec-label moderate-l">Исследуйте дальше — MODERATE</div>
+      <h3>Точечное внедрение агентов</h3>
+              <p>Внедряйте агентов в конкретных, высокоценных, ограниченных сценариях — не как общую трансформацию. Следуйте модели «ползти-идти-бежать»: начните с автоматизации документов или продуктивности разработчиков.</p>
     </div>
 
     <div class="card rec-card skeptic-rec fade-in">
-      <div class="rec-label skeptic-l"><span data-lang="ru">Подходите скептически</span><span data-lang="en">Approach skeptically</span></div>
-      <h3><span data-lang="ru">Проверяйте вендорские данные</span><span data-lang="en">Verify vendor claims</span></h3>
-      <div data-lang="ru">
-        <p>Воспринимайте вендорские статистики как описание авангарда, а не мейнстрима. Проверяйте методологию. Когда отчёт говорит, что ИИ меняет всё — проверьте, не продаёт ли автор ИИ.</p>
-      </div>
-      <div data-lang="en">
-        <p>Treat vendor adoption stats as descriptions of the vanguard, not the mainstream. Check methodology. When a report says AI transforms everything, check whether the author sells AI.</p>
-      </div>
+      <div class="rec-label skeptic-l">Подходите скептически</div>
+      <h3>Проверяйте вендорские данные</h3>
+              <p>Воспринимайте вендорские статистики как описание авангарда, а не мейнстрима. Проверяйте методологию. Когда отчёт говорит, что ИИ меняет всё — проверьте, не продаёт ли автор ИИ.</p>
     </div>
   </div>
 </section>
@@ -1117,29 +976,12 @@ section { padding: 80px 0; }
 <!-- FOOTER -->
 <footer class="footer">
   <div class="container">
-    <div data-lang="ru">
-      <p>Анализ выполнен методом диалектических дебатов с независимой верификацией. 5 сегментов, 20 аргументов, 2 раунда. 4 из 5 выводов подтверждены верификатором.</p>
+          <p>Анализ выполнен методом диалектических дебатов с независимой верификацией. 5 сегментов, 20 аргументов, 2 раунда. 4 из 5 выводов подтверждены верификатором.</p>
       <p style="margin-top:8px;opacity:0.6;">29.03.2026</p>
-    </div>
-    <div data-lang="en">
-      <p>Analysis performed through dialectical debate with independent verification. 5 segments, 20 arguments, 2 rounds. 4 of 5 conclusions independently confirmed.</p>
-      <p style="margin-top:8px;opacity:0.6;">29.03.2026</p>
-    </div>
   </div>
 </footer>
 
 <script>
-// Language toggle
-function setLang(lang) {
-  document.querySelectorAll('[data-lang]').forEach(function(el) {
-    el.style.display = el.getAttribute('data-lang') === lang ? '' : 'none';
-  });
-  document.getElementById('btnRu').classList.toggle('active', lang === 'ru');
-  document.getElementById('btnEn').classList.toggle('active', lang === 'en');
-  document.documentElement.lang = lang;
-}
-// Init default
-setLang('ru');
 
 // Transcript toggle
 function toggleTranscript(btn) {
